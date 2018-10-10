@@ -8,5 +8,10 @@ management:
     
 greeting:
   displayFortune: false
+  
+    logging:
+  level:
+    io:
+      pivotal: DEBUG
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
